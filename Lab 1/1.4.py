@@ -1,6 +1,6 @@
-num1 = int(input("Введите 1 число:"))
-num2 = int(input("Введите 2 число:"))
-num3 = int(input("Введите 3 число:"))
+num1 = int(input("Enter the first integer:"))
+num2 = int(input("Enter the second integer:"))
+num3 = int(input("Enter the third integer:"))
 
 total = num1 + num2 + num3
 

@@ -1,5 +1,5 @@
-num1 = int(input("Введите число:"))
-num2 = int(input("Введите число:"))
+num1 = int(input("Enter an integer:"))
+num2 = int(input("Enter an integer:"))
 
 total = num2 // num1
 remains = num2 - total * num1
