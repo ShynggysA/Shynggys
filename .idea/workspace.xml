@@ -5,18 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bf83af-df9c-4c1d-b356-56ad5405292b" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/Lab 1/1.1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab 1/1.2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab 1/1.3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab 1/1.4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab 1/1.5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab 1/2.1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab 1/2.2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab 1/2.3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab 1/2.4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab 1/2.5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/9.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +46,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.VCS"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.VCS&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Shynggys" />
@@ -90,7 +92,21 @@
       <option name="project" value="LOCAL" />
       <updated>1695480332826</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1">
+      <created>1695482476114</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695482476114</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1">
+      <created>1695482637124</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695482637124</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
