@@ -1,4 +1,4 @@
-def generate_fibonacci(n):
+def fibonacci(n):
     if n <= 0:
         return []
     elif n == 1:
@@ -6,11 +6,11 @@ def generate_fibonacci(n):
     elif n == 2:
         return [1, 1]
     else:
-        fibonacci_sequence = [1, 1]
+        sequence = [1, 1]
         for i in range(2, n):
-            next_term = fibonacci_sequence[-1] + fibonacci_sequence[-2]
-            fibonacci_sequence.append(next_term)
-        return fibonacci_sequence
+            next = sequence[-1] + sequence[-2]
+            sequence.append(next)
+        return sequence
 
 while True:
     try:
@@ -18,10 +18,9 @@ while True:
         if length < 0:
             print("Please enter a positive number.")
         else:
-            fibonacci_sequence = generate_fibonacci(length)
+            sequence = generate(length)
             print(f"The Fibonacci sequence for {length} is:")
-            print(", ".join(map(str, fibonacci_sequence)))
+            print(", ".join(map(str, sequence)))
             break
     except ValueError:
         print("Invalid input. Please enter a valid positive integer.")
-
