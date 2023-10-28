@@ -1,0 +1,17 @@
+from collections import Counter
+
+l = input("Enter a string: ")
+l = list(l.lower())
+
+a = Counter(l)
+
+b = list(a.items())
+
+vowels = 'aeiou'
+vow = [(char, count) for char, count in b if char in vowels]
+cons = [(char, count) for char, count in b if char.isalpha() and char not in vowels]
+sym = [(char, count) for char, count in b if not char.isalpha()]
+
+print("list_vow =", vow)
+print("list_cons =", cons)
+print("list_sym =", sym)
