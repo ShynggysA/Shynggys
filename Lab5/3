@@ -1,0 +1,18 @@
+transactions = [(1001, 2), (1001, 1), (1003, 2), (1005, 2), (1001, 3), (1007, 1), (1007, 2), (1100, 2), (1003, 2), (1001, 1)]
+
+stats = {}
+
+for user, transaction_type in transactions:
+    if user not in stats:
+        stats[user] = {1: 0, 2: 0, 3: 0, 'mft': 0, 'lft': 0}
+    
+    stats[user][transaction_type] += 1
+
+    if transaction_type != stats[user]['lft']:
+        stats[user]['lft'] = transaction_type
+
+    mtf = max(stats[user][1], stats[user][2], stats[user][3])
+    stats[user]['mft'] = mtf
+
+print("Statistics:")
+print(stats)
