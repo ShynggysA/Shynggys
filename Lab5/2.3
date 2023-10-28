@@ -1,0 +1,28 @@
+student_name = input("Enter the student's name: ")
+assignment_scores = input("Enter assignment scores (with comma): ").split(',')
+lab_scores = input("Enter lab scores (with comma): ").split(',')
+test_scores = input("Enter test scores (with comma): ").split(',')
+
+student = {
+    'name': student_name,
+    'assignment': assignment_scores,
+    'lab': lab_scores,
+    'test': test_scores
+}
+
+print(student)
+
+submission_check = {
+    student['name']: len(student.get('assignment', [])) + len(student.get('lab', [])) + len(student.get('test', []))
+}
+
+print(submission_check)
+
+if student['name'] in submission_check and submission_check[student['name']] >= 4:
+    assig = 0.3 * (sum([float(score) for score in student.get('assignment', [])]) / 4)
+    lab = 0.5 * (sum([float(score) for score in student.get('lab', [])]) / 2)
+    test = 0.2 * (sum([float(score) for score in student.get('test', [])]) / 2)
+    grade = assig + lab + test
+    student['final_grade'] = grade
+
+print(student)
