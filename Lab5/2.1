@@ -1,0 +1,13 @@
+student_name = input("Enter the student's name: ")
+assignment_scores = input("Enter assignment scores (with comma): ").split(',')
+lab_scores = input("Enter lab scores (with comma): ").split(',')
+test_scores = input("Enter test scores (with comma): ").split(',')
+
+student = {
+    'name': student_name,
+    'assignment': assignment_scores,
+    'lab': lab_scores,
+    'test': test_scores
+}
+
+print(student)
