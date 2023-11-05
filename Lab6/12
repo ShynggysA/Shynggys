@@ -1,0 +1,2 @@
+def sort_by_price(shopping_list):
+    return sorted(shopping_list, key=lambda x: x['price'])
