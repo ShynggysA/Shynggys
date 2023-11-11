@@ -1,0 +1,11 @@
+1. Write a function to read the content from a text file “text1.txt” line by line and display it 
+on the screen.
+2. Write a program to read a random line from a file.
+3. Write a function to count uppercase character in a text file.
+4. Write a function to count the number of lines from a text file, which is not starting with a 
+character ‘D’.
+Content of the file: 
+My name is Jack.
+Duracell is an American manufacturer.
+The ocean is blue.
+Output: 2
